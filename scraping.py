@@ -14,9 +14,9 @@ webdriver_service = Service("geckodriver")
 driver = webdriver.Firefox(service=webdriver_service, options=firefox_options)
 
 # URL of the parent catalogue page
-url = input("Ingresa el URL de la categoria (+?P=): ")
-base_url = url
-# base_url = "https://nissei.com/ar/camaras-y-filmadoras/camaras/reflex-mirrorless?p="
+# url = input("Ingresa el URL de la categoria (+?P=): ")
+# base_url = url
+base_url = "https://nissei.com/ar/camaras-y-filmadoras/camaras/reflex-mirrorless?p="
 
 # Define a list to store the extracted data for each product
 product_data = []
